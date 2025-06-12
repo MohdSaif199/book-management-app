@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+.content-body {
+  padding: 2%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main-heading {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.search-bar-container {
+  display: flex;
+  gap: 10px;
+  align-items: end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.create-btn {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  width: 180px;
+  height: 36px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90.39deg, #3661eb 3.6%, #3661eb 98.93%), #79a1de;
+  border-radius: 3px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.data-grid .MuiDataGrid-toolbarContainer {
+  position: relative;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: transparent;
+}
+
+.grid-heading {
+  font-weight: 600;
+  font-size: 14px;
+  color: #585858;
+}
+
+.page-heading {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #4f4f4f;
+}
+
+.btn-outlined {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  width: 180px;
+  height: 36px;
+  border: 1px solid #337ab7;
+  cursor: pointer;
+  background: #fff;
+  color: #337ab7;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+
+.labelStyles {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.labelStyles span {
+  color: red;
+}
+
+.error-container {
+  color: red;
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.grid-edit-btn {
+  cursor: pointer;
+  text-align: center;
+  background-color: #337ab7;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background: red;
+  margin: 2px;
+}
+
+.edit-link-btn {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  color: #337ab7;
+  text-decoration: none;
 }
